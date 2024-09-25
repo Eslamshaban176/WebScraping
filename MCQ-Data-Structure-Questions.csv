@@ -1,0 +1,61 @@
+Quest,OptionA,OptionB,OptionC,OptionD,Answer
+1. Process of inserting an element in stack is called ____________,"
+a) Create","
+b) Push","
+c) Evaluation","
+d) Pop","Answer: b
+Explanation: Push operation allows users to insert elements in the stack. If the stack is filled completely and trying to perform push operation stack &#8211; overflow can happen."
+2. Process of removing an element from stack is called __________,"
+a) Create","
+b) Push","
+c) Evaluation","
+d) Pop","Answer: d
+Explanation: Elements in the stack are removed using pop operation. Pop operation removes the top most element in the stack i.e. last entered element."
+"3. In a stack, if a user tries to remove an element from an empty stack it is called _________","
+a) Underflow","
+b) Empty collection","
+c) Overflow","
+d) Garbage Collection","Answer: a
+Explanation: Underflow occurs when the user performs a pop operation on an empty stack. Overflow occurs when the stack is full and the user performs a push operation. Garbage Collection is used to recover the memory occupied by objects that are no longer used."
+"4. Pushing an element into stack already having five elements and stack size of 5, then stack becomes ___________","
+a) Overflow","
+b) Crash","
+c) Underflow","
+d) User flow","Answer: a
+Explanation: The stack is filled with 5 elements and pushing one more element causes a stack overflow. This results in overwriting memory, code and loss of unsaved work on the computer."
+5. Entries in a stack are &#8220;ordered&#8221;. What is the meaning of this statement?,"
+a) A collection of stacks is sortable","
+b) Stack entries may be compared with the &#8216;&lt;&#8216; operation","
+c) The entries are stored in a linked list","
+d) There is a Sequential entry that is one by one","Answer: d
+Explanation: In stack data structure, elements are added one by one using push operation. Stack follows LIFO Principle i.e. Last In First Out(LIFO)."
+6. Which of the following is not the application of stack?,"
+a) A parentheses balancing program","
+b) Tracking of local variables at run time","
+c) Compiler Syntax Analyzer","
+d) Data Transfer between two asynchronous process","Answer: d
+Explanation: Data transfer between the two asynchronous process uses the queue data structure for synchronisation. The rest are all stack applications."
+7. Consider the usual algorithm for determining whether a sequence of parentheses is balanced. The maximum number of parentheses that appear on the stack AT ANY ONE TIME when the algorithm analyzes: (()(())(()))?,"
+a) 1","
+b) 2","
+c) 3","
+d) 4 or more","Answer: c
+Explanation: In the entire parenthesis balancing method when the incoming token is a left parenthesis it is pushed into stack. A right parenthesis makes pop operation to delete the elements in stack till we get left parenthesis as top most element. 3 elements are there in stack before right parentheses comes. Therefore, maximum number of elements in stack at run time is 3."
+8. Consider the usual algorithm for determining whether a sequence of parentheses is balanced. Suppose that you run the algorithm on a sequence that contains 2 left parentheses and 3 right parentheses (in some order). The maximum number of parentheses that appear on the stack AT ANY ONE TIME during the computation?,"
+a) 1","
+b) 2","
+c) 3","
+d) 4 or more","Answer: b
+Explanation: In the entire parenthesis balancing method when the incoming token is a left parenthesis it is pushed into stack. A right parenthesis makes pop operation to delete the elements in stack till we get left parenthesis as top most element. 2 left parenthesis are pushed whereas one right parenthesis removes one of left parenthesis. 2 elements are there before right parenthesis which is the maximum number of elements in stack at run time."
+9. What is the value of the postfix expression 6 3 2 4 + &#8211; *?,"
+a) 1","
+b) 40","
+c) 74","
+d) -18","Answer: d
+Explanation: Postfix Expression is (6*(3-(2+4))) which results -18 as output."
+10. Here is an infix expression: 4 + 3*(6*3-12). Suppose that we are using the usual stack algorithm to convert the expression from infix to postfix notation. The maximum number of symbols that will appear on the stack AT ONE TIME during the conversion of this expression?,"
+a) 1","
+b) 2","
+c) 3","
+d) 4","Answer: d
+Explanation: When we perform the conversion from infix to postfix expression +, *, (, * symbols are placed inside the stack. A maximum of 4 symbols are identified during the entire conversion."
